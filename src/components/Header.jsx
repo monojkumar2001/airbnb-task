@@ -102,14 +102,14 @@ const Header = () => {
                           add dates
                         </span>
                       </button>
-                      <div className="items-center hover:border-none col-span-2 w-66 hover:bg-third cursor-pointer hover:rounded-[32px] py-[14px] px-[32px] flex justify-between">
-                        <div>
+                      <div className="items-center hover:border-none col-span-2 w-66 hover:bg-third cursor-pointer hover:rounded-[32px]  flex justify-between">
+                        <div className="py-[14px] px-[32px]">
                           <p className="text-xs font-medium">Check in</p>
                           <span className="text-xs bg-transparent text-secondary">
                             add dates
                           </span>
                         </div>
-                        <button className="bg-pink-500 text-white p-2 rounded-full">
+                        <button className="bg-mainColor text-[14px] w-[45px] h-[45px] p-[10px] text-white m-[10px] flex items-center justify-center rounded-full">
                           <FaSearch />
                         </button>
                       </div>
@@ -147,14 +147,14 @@ const Header = () => {
                           add dates
                         </span>
                       </button>
-                      <div className="items-center hover:border-none  w-66 hover:bg-third cursor-pointer hover:rounded-[32px] py-[14px] px-[32px] flex justify-between">
-                        <div>
+                      <div className="items-center hover:border-none  w-66 hover:bg-third cursor-pointer hover:rounded-[32px] flex justify-between">
+                        <div className="py-[14px] px-[32px]">
                           <p className="text-xs font-medium">Check out</p>
                           <span className="text-xs bg-transparent text-secondary">
                             add dates
                           </span>
                         </div>
-                        <button className="bg-pink-500 text-white p-2 rounded-full">
+                        <button className="bg-mainColor text-[14px] w-[45px] h-[45px] p-[10px] text-white m-[10px] flex items-center justify-center rounded-full">
                           <FaSearch />
                         </button>
                       </div>
