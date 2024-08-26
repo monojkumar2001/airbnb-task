@@ -24,8 +24,8 @@ const Header = () => {
       <header
         className={`${isSticky ? "sticky top-0 bg-white shadow-md" : ""} z-10`}
       >
-        <div className="w-full px-20 mx-auto font-custom">
-          <div className="flex justify-between items-start pt-3">
+        <div className="w-full px-20 mx-auto font-custom pb-7 border-b border-third">
+          <div className="flex justify-between items-start pt-3 ">
             <div className="logo">
               <img
                 src="/assets/images/logo.png"
