@@ -10,7 +10,7 @@ const Inspiration = () => {
         className="py-12 bg-third border-b-[1px] "
         style={{ backgroundColor: "#F7F7F7" }}
       >
-        <div className="container m-auto">
+        <div className="max-w-[1130px] m-auto">
           <h2 className="mb-3 text-2xl text-primary font-medium">
             Inspiration for future getaways
           </h2>
@@ -96,16 +96,16 @@ const Inspiration = () => {
           </ul>
           <div>
             {activeTab === 1 && (
-              <div className="grid grid-flow-row gap-y-6 gap-x-2 mt-4 text-neutral-600 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-6 xl:grid-cols-6">
+              <div className="grid grid-flow-row gap-y-4 gap-x-2 mt-4 text-neutral-600 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-6 xl:grid-cols-6">
                 {popular.map((item, index) => (
-                  <div key={index}>
+                  <a href="#" key={index}>
                     <span className="text-[14px] font-medium text-primary block">
                       {item.name}
                     </span>
                     <span className="text-[14px] font-medium text-secondary">
                       {item.rental}
                     </span>
-                  </div>
+                  </a>
                 ))}
               </div>
             )}

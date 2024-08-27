@@ -630,3 +630,112 @@ export const artsCulture = [
     rental: "Condo rentals",
   },
 ];
+
+export const support=[
+  {
+    id:1,
+    name:'Help Center',
+    link:'#'
+  },
+  {
+    id:2,
+    name:'AirCover',
+    link:'#'
+  },
+  {
+    id:3,
+    name:'Anti-discrimination',
+    link:'#'
+  },
+  {
+    id:4,
+    name:'Disability support',
+    link:'#'
+  },
+  {
+    id:5,
+    name:'Cancellation options',
+    link:'#'
+  },
+  {
+    id:6,
+    name:'Report neighborhood concern',
+    link:'#'
+  },
+]
+export const hosting=[
+  {
+    id:1,
+    name:'Airbnb your home',
+    link:'#'
+  },
+  {
+    id:2,
+    name:'AirCover for Hosts',
+    link:'#'
+  },
+  {
+    id:3,
+    name:'Hosting resources',
+    link:'#'
+  },
+  {
+    id:4,
+    name:'Community forum',
+    link:'#'
+  },
+  {
+    id:5,
+    name:'Hosting responsibly',
+    link:'#'
+  },
+  {
+    id:6,
+    name:'Airbnb-friendly apartments',
+    link:'#'
+  },
+  {
+    id:7,
+    name:'Join a free Hosting class',
+    link:'#'
+  },
+]
+export const airbnb=[
+  {
+    id:1,
+    name:'Newsroom',
+    link:'#'
+  },
+  {
+    id:2,
+    name:'New features',
+    link:'#'
+  },
+  {
+    id:3,
+    name:'Careers',
+    link:'#'
+  },
+  {
+    id:4,
+    name:'Investors',
+    link:'#'
+  },
+  {
+    id:5,
+    name:'Gift cards',
+    link:'#'
+  },
+  {
+    id:6,
+    name:'Airbnb.org emergency stays',
+    link:'#'
+  },
+]
+
+
+
+
+
+
+
