@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <>
       <header
-        className={`${isSticky ? "sticky top-0 bg-white shadow-md" : ""} z-10`}
+        className={` top-0 bg-white shadow-md" : ""} z-20`}
       >
         <div className="w-full px-20 mx-auto font-custom pb-7 border-b border-third">
           <div className="flex justify-between items-start pt-3 ">
