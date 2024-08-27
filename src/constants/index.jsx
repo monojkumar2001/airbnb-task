@@ -514,3 +514,119 @@ export const productPast = [
   },
  
 ];
+
+export const popular= [
+  {
+    id: 1,
+    name: "Canmore",
+    rental: "Apartment rentals",
+  },
+  {
+    id: 2,
+    name: "Canmore",
+    rental: "Apartment rentals",
+  },
+  {
+    id: 2,
+    name: "Canmore",
+    rental: "Apartment rentals",
+  },
+  {
+    id: 2,
+    name: "Canmore",
+    rental: "Apartment rentals",
+  },
+  {
+    id: 2,
+    name: "Canmore",
+    rental: "Apartment rentals",
+  },
+  {
+    id: 2,
+    name: "Canmore",
+    rental: "Apartment rentals",
+  },
+  {
+    id: 2,
+    name: "Canmore",
+    rental: "Apartment rentals",
+  },
+  {
+    id: 2,
+    name: "Canmore",
+    rental: "Apartment rentals",
+  },
+  {
+    id: 2,
+    name: "Canmore",
+    rental: "Apartment rentals",
+  },
+  {
+    id: 2,
+    name: "Canmore",
+    rental: "Apartment rentals",
+  },
+  {
+    id: 2,
+    name: "Canmore",
+    rental: "Apartment rentals",
+  },
+
+];
+export const artsCulture = [
+  {
+    id: 1,
+    name: "Phoenix",
+    rental: "Condo rentals",
+  },
+  {
+    id: 2,
+    name: "Canmore",
+    rental: "Condo rentals",
+  },
+  {
+    id: 2,
+    name: "Canmore",
+    rental: "Condo rentals",
+  },
+  {
+    id: 2,
+    name: "Phoenix",
+    rental: "Condo rentals",
+  },
+  {
+    id: 2,
+    name: "Phoenix",
+    rental: "Condo rentals",
+  },
+  {
+    id: 2,
+    name: "Phoenix",
+    rental: "Condo rentals",
+  },
+  {
+    id: 2,
+    name: "Phoenix",
+    rental: "Condo rentals",
+  },
+  {
+    id: 2,
+    name: "Canmore",
+    rental: "Condo rentals",
+  },
+  {
+    id: 2,
+    name: "Canmore",
+    rental: "Condo rentals",
+  },
+  {
+    id: 2,
+    name: "Canmore",
+    rental: "Condo rentals",
+  },
+  {
+    id: 2,
+    name: "Canmore",
+    rental: "Condo rentals",
+  },
+];

@@ -1,3 +1,4 @@
+import Inspiration from "../components/Inspiration"
 import Product from "../components/Product"
 
 const HomePage = () => {
@@ -5,6 +6,8 @@ const HomePage = () => {
     <>
     {/* ================= Product =========== */}
     <Product/>
+    <Inspiration/>
+    
     </>
   )
 }

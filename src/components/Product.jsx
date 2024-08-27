@@ -17,7 +17,7 @@ const Product = () => {
   };
   return (
     <>
-      <section>
+      <section className="pb-4">
         <div className="w-full px-20 mt-3">
           <div className="relative flex items-center pl-5">
             <Swiper
