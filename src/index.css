@@ -3,6 +3,7 @@
     opacity: var(--swiper-pagination-bullet-opacity, 1);
     background: #fefeff !important;
 }
+
 @layer base {
     body {
       @apply font-sans text-[0.875rem] leading-[1.43] text-[#222222] bg-white m-0;
