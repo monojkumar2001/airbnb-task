@@ -1,8 +1,42 @@
-import { useState } from "react";
-import { artsCulture, popular } from "../constants"; // Assuming this path is correct
+import { useState, useEffect } from "react";
+import axios from "axios";
 
 const Inspiration = () => {
   const [activeTab, setActiveTab] = useState(1);
+  const [popular, setPopular] = useState([]);
+  const [artsCulture, setArtsCulture] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get(
+          "https://jsonplaceholder.typicode.com/photos"
+        );
+        const firstPopular = response.data.slice(0, 15);
+        setPopular(firstPopular);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get(
+          "https://jsonplaceholder.typicode.com/posts"
+        );
+        const firstArtsCulture = response.data.slice(0, 15);
+        setArtsCulture(firstArtsCulture);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   return (
     <>
@@ -100,11 +134,11 @@ const Inspiration = () => {
                 {popular.map((item, index) => (
                   <a href="#" key={index}>
                     <span className="text-[14px] font-medium text-primary block">
-                      {item.name}
+                      {item.title.substring(0, 20) + "..."}
                     </span>
-                    <span className="text-[14px] font-medium text-secondary">
+                    {/* <span className="text-[14px] font-medium text-secondary">
                       {item.rental}
-                    </span>
+                    </span> */}
                   </a>
                 ))}
               </div>
@@ -114,11 +148,11 @@ const Inspiration = () => {
                 {artsCulture.map((item, index) => (
                   <div key={index}>
                     <span className="text-[14px] font-medium text-primary block">
-                      {item.name}
+                      {item.title.substring(0, 20) + "..."}
                     </span>
-                    <span className="text-[14px] font-medium text-secondary">
+                    {/* <span className="text-[14px] font-medium text-secondary">
                       {item.rental}
-                    </span>
+                    </span> */}
                   </div>
                 ))}
               </div>
